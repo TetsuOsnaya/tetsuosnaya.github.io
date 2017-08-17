@@ -45,22 +45,22 @@ body {
 
 }
 
-.backg {
+.masterbg {
+  display: flex;
+  flex-direction: row;
 
+}
+
+.bgleft {
+  flex-grow: 1;
 }
 
 .asteroid {
-  position:absolute;
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
-}
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 }
 
 .menup {
+  flex-grow: 2;
   text-align: center;
 }
 
@@ -123,6 +123,6 @@ body {
   box-shadow: 5px 5px black;
 }
 
-}
-
+.bgrigth {
+  flex-grow: 1;
 }
