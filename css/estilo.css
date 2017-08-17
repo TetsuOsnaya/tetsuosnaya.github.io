@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Comic Neue';
+  src: url(css/fonts/ComicNeue-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Comic Neue Bold';
+  src: url(css/fonts/ComicNeue_Bold.otf);
+}
+
+@font-face {
+  font-family: 'Comic Neue Light';
+  src: url(css/fonts/ComicNeue_Light.otf);
+}
+
+@font-face {
+  font-family: 'Comic Neue Angular';
+  src: url(css/fonts/ComicNeue-Angular-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Comic Neue Angular Bold';
+  src: url(css/fonts/ComicNeue-Angular_Bold.otf);
+}
+
+@font-face {
+  font-family: 'Comic Neue Angular Light';
+  src: url(css/fonts/ComicNeue-Angular_Light.otf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+ font-family: 'Comic Neue', sans-serif;
+ background-color: black;
+ color: white;
+}
+
+.portada {
+
+}
+
+.backg {
+
+}
+
+.asteroid {
+  position:absolute;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+}
+
+.menup {
+  text-align: center;
+}
+
+.logotipo-padre {
+  margin: 25px;
+  background-color: black;
+}
+
+.logotipo {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 300px;
+  background-color: black;
+}
+
+.t1 {
+  font-family: 'Comic Neue Angular', sans-serif;
+  text-align: center;
+  font-size: 72px;
+}
+
+.t2 {
+
+}
+
+.t3 {
+  font-family: 'Comic Neue Angular',sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
+
+.firstb {
+  font-family: 'Comic Neue';
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 5px 5px white;
+  border-radius: 10px;
+  margin: 10px;
+  ;
+}
+
+.firstb:hover {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  box-shadow: 5px 5px black;
+}
+
+}
+
+}
