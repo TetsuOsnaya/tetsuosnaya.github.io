@@ -1,0 +1,78 @@
+@import 'nib/vendor'
+vendor-prefixes = o ms webkit moz;
+@import ('./normalize.css')
+/*****************Fuentes ***********/
+@font-face
+ font-family Circular
+ font-style normal
+ src url(../fonts/CircularStd-Black.otf)
+@font-face
+ font-family Gandhi
+ font-style normal
+ src url(../fonts/GandhiSans-Regular.otf)
+/***************Terminan fuentes ********************/
+/********************Layout Parte 1*************************/
+*
+	margin 0
+	padding 0
+	font-family Gandhi
+	font-size 16px
+	color #18191C
+h1,h2,h3,h4,h5,h6
+	font-family Circular
+body
+ background-color #152B3C
+ display flex
+ flex-direction column
+ justify-content center
+ align-items center
+ .cont
+  width 100%
+  height 100vh
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
+  .img
+   width 100%
+   text-align center
+   img
+     height 70px
+  .texto
+   text-align center
+   h1
+    color #ECEDEC
+   a
+    background-color #E32D40
+    padding .5em 1em
+    color #ECEDEC
+    text-decoration none
+    border-radius 4px
+    &:hover
+     border-bottom 2px solid orange
+  .social
+   width 100%
+   display flex
+   flex-direction row
+   justify-content space-around
+   margin 20px 0
+   a
+    .soc
+     width 70px
+     img
+      width 100%
+@media (max-width:500px) and (orientation:portrait),(max-width:740px) and (orientation:landscape)
+  body
+   .cont
+    .img
+     width 100%
+     text-align center
+     img
+       height auto
+       width 100%
+    .social
+     a
+      .soc
+       width 40px
+       img
+        width 100%

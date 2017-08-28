@@ -58,6 +58,7 @@ body {
   display: flex;
   flex-direction: row;
   width: auto;
+  justify-content: center;
 }
 
 .bgleft {
@@ -129,7 +130,6 @@ body {
   border-radius: 10px;
   margin: 10px;
   cursor: pointer;
-  ;
 }
 
 .firstb:hover {
@@ -145,6 +145,13 @@ body {
 }
 
 .barra {
+  background-color: black;
+  /*position: fixed;*/
+  /*width: 600px;*/
+  /*height: 200px;*/
+  /*left: 50%;*/
+  /*top: %;*/
+  /*margin-left: -100px;*/
   display: flex;
   align-items: center;
   align-content: center;
@@ -179,13 +186,201 @@ body {
   background-color: inherit;
 }
 
+
 .contenido-acerca {
-  margin: 50px 100px;
-  padding: 50px 200px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 10px 50px;
+  width: 800px;
   border: 0px solid white;
 }
 
+#botones-acerca {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  font-size: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.topics {
+  margin: 100px 0 5px 0;
+  padding: 25px 0;
+  background-color: white;
+}
+
+.menu-work {
+  margin: 50px;
+  padding: 25px;
+  background-color: white;
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+}
+
+#botones-work {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
+  text-align: center;
+}
+
+.boton-work {
+  font-family: 'Comic Neue';
+  font-size: 18px;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 5px 5px white;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.boton-work:hover {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  box-shadow: 5px 5px black;
+}
+
+#bw-1:hover {
+  background-image: url('img/design.jpg');
+  background-position: center;
+  background-repeat: repeat;
+}
+
+#bw-2:hover {
+  background-image: url('img/video.jpg');
+  background-repeat: repeat;
+}
+
+#bw-3:hover {
+  background-image: url('img/projects.img');
+  background-repeat: repeat;
+}
+
 p {
-  padding: 15px 0;
+  padding: 10px 0;
   font-size: 25px;
+}
+/*AREA: WORK - DESIGN*/
+
+.designfolio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  color: black;
+  padding: 50px;
+
+}
+
+.design-featured {
+
+}
+
+.design-grid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.design-item {
+  border: 1px solid white;
+  width: 80%;
+  margin: 10px 0 10px 0;
+}
+
+.design-item img {
+  width: 100%;
+  /*height: 10%;*/
+}
+/*
+.design-item img:hover {
+  -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+     transform:scale(1.25);
+  /*height: 10%;*/
+}
+
+/*AREA: WORK - VIDEO*/
+.videofolio {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+.video-head {
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  padding: 50px 0 50px 0;
+}
+
+.video-featured {
+  background-color: white;
+  position: relative;
+  padding: 0px;
+  border:10px solid black;
+  border-radius: 20px;
+  margin: 10px 10px auto;
+  box-shadow: 4px 4px white;
+  width: 95%;
+  height: 720px;
+}
+
+.video-grid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.video-item {
+  position: relative;
+  border: 10px solid black;
+  border-radius: 20px;
+  margin: 10px 10px auto;
+  box-shadow: 4px 4px white;
+  width: 80%;
+  height: 720px;
+}
+
+.vid-yt {
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  width:100%;
+  height:100%;
 }

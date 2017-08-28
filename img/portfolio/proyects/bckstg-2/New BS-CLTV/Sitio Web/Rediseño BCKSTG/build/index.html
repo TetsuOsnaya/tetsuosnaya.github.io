@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title>Backstage-CLTV | Blog</title>
+	  <meta charset="utf-8"/>
+
+	  <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+
+	  <link rel="stylesheet" href="./css/main.css">
+
+	  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+	  <meta name="author" content="OakCanvas">
+
+	  <meta name="description" content="">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css"  charset="utf-8">
+
+	  <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-74252968-2', 'auto');
+	  ga('send', 'pageview');
+
+	  </script>
+
+</head>
+<body>
+
+	<nav>
+		<header class="Hbarra">
+			<div class="imagen-logo">
+				<a href="http://blog.backstagecltv.com/">
+				 <img src="./img/logo_m.png" alt="Backstage-CLTV"/>
+				</a>
+			</div>
+			<div class="menu">
+				<button type="button" id="Mboton"><i class="fa fa-bars"></i></button>
+			</div>
+			<ul>
+				<li><a href="http://blog.backstagecltv.com/">Inicio</a></li>
+				<li><a href="http://backstagecltv.com/">Acerca</a></li>
+				<li>
+					<input type="text" id="Btexto" value="Buscar" onclick="this.value='';" onblur="if(this.value==''){this.value='Buscar';}" onfocus="if(this.value=='Buscar'){this.value='';}">
+					<button type="button" id="buscar"><i class="fa fa-search"></i></button>
+				</li>
+			</ul>
+		</header>
+	</nav>
+
+	<section class="cont">
+		<div class="img-g">
+			<a href="para-empezar-con-tu-carrera.html">
+				<div class="titulo">
+					<h2>Para empezar con tu carrera...</h2>
+				</div>
+				<div class="img-p">
+					<img src="./img/bran.jpeg" alt="Branding" />
+				</div>
+			</a>
+		</div>
+		<div class="img-g">
+			<a href="el-rio-salvaje-de-la-musica-contemporanea.html">
+				<div class="titulo">
+					<h2>Little Jesus: El río salvaje de la música contemporánea</h2>
+				</div>
+				<div class="img-p">
+					<img src="./img/LJesus.jpg" alt="Little Jesusus" />
+				</div>
+			</a>
+		</div>
+		<div class="img-g">
+			<a href="un-viaje-a-lo-surrealista.html">
+				<div class="titulo">
+					<h2>Porter en concierto: Un viaje a lo surrealista</h2>
+				</div>
+				<div class="img-p">
+					<img src="./img/porter.jpg" alt="Adiós París" />
+				</div>
+			</a>
+		</div>
+		<div class="img-g">
+			<a href="por-que-estoy-creando-una-banda.html">
+				<div class="titulo">
+					<h2>¿Por qué estoy creando una banda?</h2>
+				</div>
+				<div class="img-p">
+					<img src="./img/branding.jpg" alt="Adiós París" />
+				</div>
+			</a>
+		</div>
+		<div class="img-g">
+			<a href="semana-de-las-juventudes.html">
+				<div class="titulo">
+					<h2>Semana de las juventudes 2016</h2>
+				</div>
+				<div class="img-p">
+					<img src="./img/SJ.jpg" alt="Adiós París" />
+				</div>
+			</a>
+		</div>
+		<div class="img-g">
+			<a href="adios-tristeza-hola-paris.html">
+				<div class="titulo">
+					<h2>Adiós París: Adiós tristeza, ¡Hola París!</h2>
+				</div>
+				<div class="img-p">
+					<img src="./img/AParis.jpg" alt="Adiós París" />
+				</div>
+			</a>
+		</div>
+		<div class="img-g">
+			<a href="1000-maneras-de-comer-fruta.html">
+				<div class="titulo">
+					<h2>Caloncho: 1000 maneras de comer fruta.</h2>
+				</div>
+				<div class="img-p">
+					<img src="./img/calonchoM.jpg" alt="Caloncho" />
+				</div>
+			</a>
+		</div>
+		<div class="img-g">
+			<a href="musica-eres-tu.html">
+				<div class="titulo">
+					<h2>Música eres tú(Presentación)</h2>
+				</div>
+				<div class="img-p">
+					<img src="./img/WSTOCK.jpg" alt="Adiós París" />
+				</div>
+			</a>
+		</div>
+
+	</section>
+	<section class="suscrib">
+		<h1>¿Quieres conocer mas música independiente?</h1>
+		<span>Recibe información sobre músicos independientes y tips que vas a utilizar en tu carrera musical.</span>
+		<input type="text" id="nombre" value="Nombre" onclick="this.value='';" onblur="if(this.value==''){this.value='Nombre';}" onfocus="if(this.value=='Nombre'){this.value='';}" class="correo">
+		<input type="text" id="correo" value="contacto@backstagecltv.com" onclick="this.value='';" onblur="if(this.value==''){this.value='contacto@backstagecltv.com';}" onfocus="if(this.value=='contacto@backstagecltv.com'){this.value='';}" class="correo">
+		<input type="button" id="enviar" value="Unirse" class="boton">
+	</section>
+
+	<section class="conocer">
+		<!-- <div class="imagen-fondo">
+			<img src="./img/fondo5.jpg" alt="Backstage-CLTV" />
+		</div> -->
+		<svg class="triangulo" preserveAspectRatio="none" viewBox="0 0 100 100">
+				<path d="M0 0 L100 100 L100 0 Z"></path>
+		</svg>
+		<div class="inner">
+			<a href="http://backstagecltv.com/">
+				<div class="liga">
+					Conoce más sobre <i class="fa fa-arrow-right"></i>
+				</div>
+			</a>
+			<div class="logoCon">
+				<img src="./img/BCKSTG_logo.png" alt="Backstage-CLTV" />
+			</div>
+		</div>
+		<svg class="triangulo triangulo1" preserveAspectRatio="none" viewBox="0 0 100 100">
+				<path d="M0 100 L100 100 L0 0 Z"></path>
+		</svg>
+
+	</section>
+	<footer class="footer">
+		<a href="https://www.instagram.com/backstage_cltv/" target="_blank">
+			<div class="soc">
+				<img src="./img/insta.png" alt="Intagram" />
+			</div>
+		</a>
+		<a href="https://www.youtube.com/channel/UCdBMxEtKgY8GvKRk-ynFwPg" target="_blank">
+			<div class="soc">
+				<img src="./img/yout.png" alt="" />
+			</div>
+		</a>
+		<a href="https://play.spotify.com/user/backstagecltv" target="_blank">
+			<div class="soc">
+				<img src="./img/spoti.png" alt="" />
+			</div>
+		</a>
+		<a href="https://www.facebook.com/backstagecltv/" target="_blank">
+			<div class="soc">
+				<img src="./img/face.png" alt="" />
+			</div>
+		</a>
+		<a href="https://twitter.com/backstagecltv" target="_blank">
+			<div class="soc">
+				<img src="./img/twit.png" alt="" />
+			</div>
+		</a>
+	</footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+<script src="funciones0.js" charset="utf-8"></script>
+</html>
